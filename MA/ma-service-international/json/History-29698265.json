@@ -1,0 +1,87 @@
+{
+  "transactions" : [ {
+    "transaction_id" : "29698268",
+    "original_transaction_id" : "29698265",
+    "response_code" : "0",
+    "reference_number" : "6649629922106091403012",
+    "merchant_transaction_ref" : "REF_1664962990950",
+    "transaction_type" : "Void Refund Capture",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_VOID_REFUND_CAPTURE",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T16:43:11Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649629922106091403012",
+    "note" : "",
+    "parent_id" : "29698267",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698267",
+    "original_transaction_id" : "29698265",
+    "response_code" : "0",
+    "reference_number" : "6649629903106052303007",
+    "merchant_transaction_ref" : "REF_1664962989348",
+    "transaction_type" : "Refund Capture",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_REFUND",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T16:43:09Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649629903106052303007",
+    "note" : "",
+    "parent_id" : "29698266",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698266",
+    "original_transaction_id" : "29698265",
+    "response_code" : "0",
+    "reference_number" : "6649629886516051603007",
+    "merchant_transaction_ref" : "REF_1664962987599",
+    "transaction_type" : "Capture",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_CAPTURE",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T16:43:07Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649629886516051603007",
+    "note" : "",
+    "parent_id" : "29698265",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698265",
+    "original_transaction_id" : "29698265",
+    "response_code" : "0",
+    "reference_number" : "29698265",
+    "merchant_transaction_ref" : "REF_1664962980565",
+    "transaction_type" : "Authorize",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "0",
+    "operator_id" : "",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T16:43:05Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649629860436059803010",
+    "note" : "",
+    "parent_id" : "29698265",
+    "subHistories" : ""
+  } ]
+}

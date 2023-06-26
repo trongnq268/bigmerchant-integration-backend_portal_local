@@ -1,0 +1,74 @@
+{
+  "rowIndex": 0,
+  "provider": "Kredivo",
+  "merchantId": "TESTONEPAY",
+  "transactionId": "PAY-pXTKgJADSd-wooAhsfQUnQ",
+  "orderInfo": "Ma Don Hang",
+  "merchantTnxRef": "TEST_1673923577819-1668444380",
+  "reasonName": "KREDIVO_SUCCESS",
+  "providerRef": "EMULATOR-bcf85e2d-ae38-49c8-a22e-413df4321821",
+  "settlementRef": "EMULATOR-bcf85e2d-ae38-49c8-a22e-413df4321821",
+  "voidable": false,
+  "nAmount": 1000000.0,
+  "orgAmount": {
+    "total": 1000000.0,
+    "currency": "VND"
+  },
+  "fpAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "plAmount": {
+    "total": 950000.0,
+    "currency": "VND"
+  },
+  "dbAmount": {
+    "total": 1000000.0,
+    "currency": "VND"
+  },
+  "plFeeAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "cfAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "mfAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "rfAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "partnerDiscountAmount": {
+    "total": 50000.0,
+    "currency": "VND"
+  },
+  "merchantDiscountAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "originalRefundedAmount": {
+    "total": 0.0,
+    "currency": "VND"
+  },
+  "mfPercent": 0.0,
+  "createDate": "Jan 17, 2023, 9:46:30 AM",
+  "settlementDate": "Jan 17, 2023, 9:46:41 AM",
+  "model": "",
+  "transactionType": "Pay Later",
+  "status": "approved",
+  "bnplModel": {
+    "provider": "Kredivo",
+    "modelName": "",
+    "periodTime": 6,
+    "percentAdvPayment": 0.0,
+    "merchantFee": 0.0,
+    "customerName": "TRAN THAI DUONG",
+    "customerPhone": "0367573937",
+    "customerEmail": "duongtt@onepay.vn",
+    "citiZenId": ""
+  }
+}

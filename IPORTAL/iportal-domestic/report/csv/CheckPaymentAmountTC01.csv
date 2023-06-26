@@ -1,0 +1,3 @@
+input;output;note
+{"fromDate": "10/05/2023","toDate": "10/05/2023","merchantId":"TESTMC","interval": "1","version":"successful"};[{"field": "total_transaction_total", "value": 400000, "condition": "equal"}, {"field": "total_transaction_original_total", "value": 400000, "condition": "equal"}];{purchase}
+{"fromDate": "10/05/2023","toDate": "10/05/2023","merchantId":"TESTONEPAY","interval": "1","version":"successful"};[{"field": "total_transaction_total", "value": 620000, "condition": "equal"}, {"field": "total_transaction_original_total", "value": 620000, "condition": "equal"}];{purchase}

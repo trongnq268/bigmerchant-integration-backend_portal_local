@@ -1,0 +1,138 @@
+[
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": ""
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": ""
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Rows minimum value is 1",
+                "details": [
+                    {
+                        "param": "Rows",
+                        "value": 0,
+                        "message": "Rows minimum value is 1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": 0
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Rows minimum value is 1",
+                "details": [
+                    {
+                        "param": "Rows",
+                        "value": 0,
+                        "message": "Rows minimum value is 1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": -1
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Rows minimum value is 1",
+                "details": [
+                    {
+                        "param": "Rows",
+                        "value": -1,
+                        "message": "Rows minimum value is 1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "text": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                "groupId": "",
+                "first": "",
+                "rows": 10
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Text maximum length is 100",
+                "details": [
+                    {
+                        "param": "Text",
+                        "value": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                        "message": "Text maximum length is 100"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": 10
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 200,
+            "body": {
+                "code": 200
+            }
+        }
+    }
+]

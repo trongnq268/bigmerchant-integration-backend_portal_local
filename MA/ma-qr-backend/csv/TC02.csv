@@ -1,0 +1,4 @@
+input;output;note
+{"transactionId":"PAY-vyUrYxadQ0my1dVxSXLiYg","transactionType": "Purchase","transactionState": ""};{"field": "compare_json_response", "value": "Purchase-PAY-vyUrYxadQ0my1dVxSXLiYg.json", "condition": "equal"};{filter by trans type}
+{"transactionId":"REF-GCBGTFBYLSTDY3GT","transactionType": "Refund","transactionState": ""};{"field": "compare_json_response", "value": "Refund-REF-GCBGTFBYLSTDY3GT.json", "condition": "equal"};{filter by trans type}
+{"transactionId":"30689","transactionType": "Request Refund","transactionState": ""};{"field": "compare_json_response", "value": "Request Refund-30689.json", "condition": "equal"};{filter by trans type}

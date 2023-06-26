@@ -1,0 +1,76 @@
+detail gd apple pay,id,32435827,data,"{
+  ""transaction_id"" : ""32435827"",
+  ""order_info"" : ""TESTAPPLE"",
+  ""merchant_txn_ref"" : ""TEST_1683804608738882847403"",
+  ""amount"" : {
+    ""total"" : ""1000.00"",
+    ""currency"" : ""USD"",
+    ""refund_total"" : """"
+  },
+  ""card"" : {
+    ""card_number"" : ""481852****8506"",
+    ""card_type"" : ""Visa"",
+    ""name_on_card"" : """",
+    ""card_date"" : """",
+    ""commercical_card"" : """",
+    ""commercial_card_indicator"" : """"
+  },
+  ""merchant_id"" : ""TESTAPPAY"",
+  ""authentication"" : {
+    ""authentication_state"" : """",
+    ""authentication_type"" : ""Visa"",
+    ""authorization_code"" : """",
+    ""authorization_amount"" : """"
+  },
+  ""transaction_time"" : ""2023-05-11T18:31:01Z"",
+  ""verification_token"" : """",
+  ""xid"" : """",
+  ""enrolled_3ds"" : """",
+  ""verification_security_level"" : ""07"",
+  ""eci"" : """",
+  ""time_taken"" : """",
+  ""financial_number"" : ""6838046916996796903955"",
+  ""pares_status"" : """",
+  ""row_num"" : ""0"",
+  ""onecredit_transaction_id"" : ""32435827"",
+  ""transaction_type"" : ""Purchase"",
+  ""source"" : ""Apple Pay""
+}"
+detail gd thuong (Direct),id,32435825,data,"{
+  ""transaction_id"" : ""32435825"",
+  ""order_info"" : ""Ma Don Hang"",
+  ""merchant_txn_ref"" : ""TEST_16838036268171818275793"",
+  ""amount"" : {
+    ""total"" : ""1000.00"",
+    ""currency"" : ""THB"",
+    ""refund_total"" : """"
+  },
+  ""card"" : {
+    ""card_number"" : ""512345****0008"",
+    ""card_type"" : ""Mastercard"",
+    ""name_on_card"" : """",
+    ""card_date"" : """",
+    ""commercical_card"" : """",
+    ""commercial_card_indicator"" : """"
+  },
+  ""merchant_id"" : ""TESTTHB"",
+  ""authentication"" : {
+    ""authentication_state"" : """",
+    ""authentication_type"" : ""Mastercard"",
+    ""authorization_code"" : """",
+    ""authorization_amount"" : """"
+  },
+  ""transaction_time"" : ""2023-05-11T18:14:03Z"",
+  ""verification_token"" : """",
+  ""xid"" : """",
+  ""enrolled_3ds"" : """",
+  ""verification_security_level"" : """",
+  ""eci"" : """",
+  ""time_taken"" : """",
+  ""financial_number"" : ""123456789"",
+  ""pares_status"" : """",
+  ""row_num"" : ""0"",
+  ""onecredit_transaction_id"" : ""32435825"",
+  ""transaction_type"" : ""Purchase"",
+  ""source"" : ""Direct""
+}"

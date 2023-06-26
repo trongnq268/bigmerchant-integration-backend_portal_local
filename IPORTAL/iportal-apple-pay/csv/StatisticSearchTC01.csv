@@ -1,0 +1,2 @@
+input;output;note
+{"dateFrom":"", "source":"Apple Pay", userId":"40265"};{"field": "compare_json_response", "value": "Statistic-International.json", "condition": "equal"};{filter by source}

@@ -1,0 +1,21 @@
+[
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "Vietcombank1"
+            },
+            "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+            "status": 200,
+            "body": {
+                "message": "TXN_NOT_FOUND",
+                "data": [],
+                "total": 0
+            }
+        }
+    }
+]

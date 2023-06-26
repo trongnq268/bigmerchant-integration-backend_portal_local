@@ -1,0 +1,4 @@
+input;output;note
+{"merchant_id": "TESTONEPAY","from_date": "10/02/2023","to_date": "10/02/2023","interval": "DD","currency": "","version": "v2"};[{"field": "type", "value": "currency", "condition": "equal"}, {"field": "type", "value": "currency", "condition": "equal"}];{filter by merchant id}
+{"merchant_id": "","from_date": "10/02/2023","to_date": "10/02/2023","interval": "DD","currency": "VND","version": "v2"};[{"field": "type", "value": "currency", "condition": "equal"}, {"field": "type", "value": "currency", "condition": "equal"}];{filter by merchant id}
+{"merchant_id": "","from_date": "10/02/2023","to_date": "10/02/2023","interval": "DD","currency": "USD","version": "v2"};[{"field": "type", "value": "currency", "condition": "equal"}, {"field": "type", "value": "currency", "condition": "equal"}];{filter by merchant id}

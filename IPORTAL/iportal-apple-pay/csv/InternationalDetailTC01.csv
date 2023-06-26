@@ -1,0 +1,2 @@
+input;output;note
+{"transactionId":"UVQ7QVVULVJZUUEzUTNXWkdFRkpMVjM7UHVyY2hhc2U=", "transState":"Successful"};{"field": "compare_json_response", "value": "Detail-32436262.json", "condition": "equal"};{filter by transactionId}

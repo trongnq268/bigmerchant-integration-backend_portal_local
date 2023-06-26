@@ -1,0 +1,2 @@
+input;output;note
+{"transactionId":"PAY-pXTKgJADSd-wooAhsfQUnQ","transactionType": "Pay Later","status": "approved"};{"field": "compare_json_response", "value": "Detail-PAY-pXTKgJADSd-wooAhsfQUnQ.json", "condition": "equal"};{filter by transactionId}

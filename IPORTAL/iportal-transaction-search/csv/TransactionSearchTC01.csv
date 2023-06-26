@@ -1,0 +1,2 @@
+input;output;note
+{"fromDate": "29/11/2022 04:00 PM","toDate": "29/11/2022 11:59 PM","merchantId":"TESTONEPAY","transactionId": "","orderInfo": "","merchantTransactionRef": "","customerTransId": "","merchantTransId": "","masking": "","cardType": "","appName": "","acqCode": "","cardNumber": "","platform": "","tid": "","mid": "","status": "","channel": "","page": 0,"pageSize": 100};[{"field": "merchantId", "value": "TESTONEPAY", "condition": "equal"}, {"field": "merchantId", "value": "TESTONEPAY", "condition": "equal"}];{filter by merchant id}

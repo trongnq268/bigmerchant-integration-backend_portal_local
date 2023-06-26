@@ -1,0 +1,156 @@
+[
+    {
+        "input": {
+            "body": {
+                "mccDescription": "string",
+                "mccId": "string",
+                "mccNote": "string",
+                "mccType": "EMAIL_ALERT"
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "mccDescription": "",
+                "mccId": "",
+                "mccNote": "",
+                "mccType": ""
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MCCDescription is required\nMCCId is required\nMCCType is required",
+                "details": [
+                    {
+                        "param": "MCCDescription",
+                        "value": "",
+                        "message": "MCCDescription is required"
+                    },
+                    {
+                        "param": "MCCId",
+                        "value": "",
+                        "message": "MCCId is required"
+                    },
+                    {
+                        "param": "MCCType",
+                        "value": "",
+                        "message": "MCCType is required"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "mccDescription": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                "mccId": "TEST",
+                "mccNote": "TEST",
+                "mccType": "EMAIL_ALERT"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MCCDescription maximum length is 200",
+                "details": [
+                    {
+                        "param": "MCCDescription",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "MCCDescription maximum length is 200"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "mccDescription": "TEST",
+                "mccId": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                "mccNote": "TEST",
+                "mccType": "EMAIL_ALERT"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MCCId maximum length is 100",
+                "details": [
+                    {
+                        "param": "MCCId",
+                        "value": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                        "message": "MCCId maximum length is 100"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "mccDescription": "TEST",
+                "mccId": "TEST",
+                "mccNote": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                "mccType": "EMAIL_ALERT"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MCCNote maximum length is 200",
+                "details": [
+                    {
+                        "param": "MCCNote",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "MCCNote maximum length is 200"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "mccDescription": "TEST",
+                "mccId": "TEST",
+                "mccNote": "TEST",
+                "mccType": "TEST"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MCCType is not valid",
+                "details": [
+                    {
+                        "param": "MCCType",
+                        "value": "TEST",
+                        "message": "MCCType is not valid"
+                    }
+                ]
+            }
+        }
+    }
+]

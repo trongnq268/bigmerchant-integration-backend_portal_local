@@ -1,0 +1,31 @@
+datasources:6959a2ef41cc87836d24cbdbd970fb9164850a81
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:a62a42ae98079241c40b4229de8e6f590ca44821
+--suite Bigmerchant.Cancel Invoice
+--suite Bigmerchant.Capture
+--suite Bigmerchant.Create 2d Inline
+--suite Bigmerchant.Create 3d inline
+--suite Bigmerchant.Create Authorization
+--suite Bigmerchant.Create Authorization 2d Inline
+--suite Bigmerchant.Create Authorization 3d Inline
+--suite Bigmerchant.Create Invoice
+--suite Bigmerchant.Create Verification
+--suite Bigmerchant.Create Verification 2d Inline
+--suite Bigmerchant.Create Verification 3d Inline
+--suite Bigmerchant.Query Authorization
+--suite Bigmerchant.Query Capture
+--suite Bigmerchant.Query Purchase
+--suite Bigmerchant.Query Refund
+--suite Bigmerchant.Query Void Authorization
+--suite Bigmerchant.Query Void Capture
+--suite Bigmerchant.Query Void Capture Refund
+--suite Bigmerchant.Query Void Purchase
+--suite Bigmerchant.Query Void Purchase Refund
+--suite Bigmerchant.Refund Capture
+--suite Bigmerchant.Refund Purchase
+--suite Bigmerchant.Void Capture
+--suite Bigmerchant.Void Capture Refund
+--suite Bigmerchant.Void Purchase Refund
+--suite Bigmerchant.Void authorization
+--suite Bigmerchant.Void purchase

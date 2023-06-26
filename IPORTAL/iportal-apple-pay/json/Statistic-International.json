@@ -1,0 +1,13 @@
+{
+  "chartStatistic": [
+    {
+      "countFail": 60,
+      "countSuccess": 28935,
+      "totalFail": 299998991,
+      "totalSucess": 262825087453,
+      "dateName": "Data 01",
+      "merchantId": "ALL,",
+      "payGate": "QT"
+    }
+  ]
+}

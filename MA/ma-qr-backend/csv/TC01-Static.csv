@@ -1,0 +1,9 @@
+search by merchant id,merchantId,TESTONEPAY,merchantId,TESTONEPAY
+search by transaction Id,transactionId,PAY-cJJuz_6UReyOnzTu3I4vDw,originalId,PAY-cJJuz_6UReyOnzTu3I4vDw
+search by order Info,orderInfo,KSKSK_093723,orderReference,KSKSK_093723
+search by merchant Transaction Ref purchase,merchantTransactionRef,KSKSK/09032023113713,merchantTransRef,KSKSK/09032023113713
+search by qrId,qrId,B1678336897613,qrId,B1678336897613
+search by appName,appName,Vietcombank,appName,Vietcombank
+search by status,status,approved,status,Successful
+search by status,status,failed,status,Failed
+search by penđing,status,pending,status,Pending

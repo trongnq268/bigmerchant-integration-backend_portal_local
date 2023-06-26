@@ -1,0 +1,13 @@
+input;output;note
+{"transaction_id":"30331991","transaction_type": "Purchase","transaction_state": ""};{"field": "compare_json_response", "value": "Purchase-30331991.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331988","transaction_type": "Authorize","transaction_state": ""};{"field": "compare_json_response", "value": "Authorize-30331988.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331989","transaction_type": "Capture","transaction_state": ""};{"field": "compare_json_response", "value": "Capture-30331989.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30334602","transaction_type": "Refund Capture","transaction_state": ""};{"field": "compare_json_response", "value": "Refund Capture-30334602.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30264305","transaction_type": "Refund Dispute","transaction_state": ""};{"field": "compare_json_response", "value": "Refund Dispute-30264305.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331931","transaction_type": "Refund","transaction_state": ""};{"field": "compare_json_response", "value": "Refund-30331931.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30340","transaction_type": "Request Refund","transaction_state": ""};{"field": "compare_json_response", "value": "Request Refund-30340.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331773","transaction_type": "Void Authorize","transaction_state": ""};{"field": "compare_json_response", "value": "Void Authorize-30331773.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331778","transaction_type": "Void Capture","transaction_state": ""};{"field": "compare_json_response", "value": "Void Capture-30331778.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331790","transaction_type": "Void Purchase","transaction_state": ""};{"field": "compare_json_response", "value": "Void Purchase-30331790.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30334068","transaction_type": "Void Refund Capture","transaction_state": ""};{"field": "compare_json_response", "value": "Void Refund Capture-30334068.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"30331796","transaction_type": "Void Refund","transaction_state": ""};{"field": "compare_json_response", "value": "Void Refund-30331796.json", "condition": "equal"};{filter by trans type}

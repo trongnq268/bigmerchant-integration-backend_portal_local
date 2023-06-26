@@ -1,0 +1,38 @@
+[
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": ""
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "text": "",
+                "groupId": "",
+                "first": "",
+                "rows": 10
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 200,
+            "body": {
+                "code": 200
+            }
+        }
+    }
+]

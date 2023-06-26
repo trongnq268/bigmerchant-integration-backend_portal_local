@@ -1,0 +1,39 @@
+[
+    {
+        "input": {
+            "id": "string",
+            "X-USER-NAME": "",
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "id": "string",
+            "X-USER-NAME": "thang",
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 204,
+            "body": ""
+        }
+    },
+    {
+        "input": {
+            "id": "",
+            "X-USER-NAME": "thang",
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 404,
+            "body": "404 page not found"
+        }
+    }
+]

@@ -1,0 +1,2 @@
+input;output;note
+{"transactionId":"PAY-VY8LpUj0QFa1RPqpNO_K8w","transactionType": "","transactionState": ""};{"field": "compare_json_response", "value": "PurchaseDetail-PAY-VY8LpUj0QFa1RPqpNO_K8w.json", "condition": "equal"};{filter by transactionId}

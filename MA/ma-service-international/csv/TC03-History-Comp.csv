@@ -1,0 +1,4 @@
+input;output;note
+{"transaction_id":"29698158","transaction_type": "Purchase","transaction_state": ""};{"field": "compare_json_response", "value": "History-29698158.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"29698180","transaction_type": "Purchase","transaction_state": ""};{"field": "compare_json_response", "value": "History-29698180.json", "condition": "equal"};{filter by trans type}
+{"transaction_id":"29698265","transaction_type": "Purchase","transaction_state": ""};{"field": "compare_json_response", "value": "History-29698265.json", "condition": "equal"};{filter by trans type}

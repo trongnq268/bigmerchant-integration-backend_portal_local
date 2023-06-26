@@ -1,0 +1,2 @@
+input;output;note
+{"from_date": "18/01/2023","to_date": "18/01/2023","merchant_id": "","merchant_name": "","partner": "","interval": "DD","provider": "homecredit","status": "approved","type_search": "include","other": "merchant_id,provider,payment_period","version": "v2"};[{"field": "transAmount", "value": 1888000, "condition": "equal"}, {"field": "transAmount", "value": 1888000, "condition": "equal"}];{filter by merchant id}

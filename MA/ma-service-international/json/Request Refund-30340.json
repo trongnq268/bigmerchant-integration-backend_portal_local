@@ -1,0 +1,44 @@
+{
+  "row_num" : "0",
+  "merchant_id" : "TESTOP5",
+  "order_info" : "Ma Don Hang",
+  "acquirer" : {
+    "acquirer_id" : "4",
+    "acquirer_name" : "VietcomBank",
+    "acquirer_short_name" : "VietcomBank"
+  },
+  "original_transaction_id" : "30329659",
+  "transaction_id" : "30340",
+  "transaction_time" : "2022-10-26T16:21:48Z",
+  "transaction_type" : "Request Refund",
+  "transaction_status" : "405",
+  "transaction_status_2" : "",
+  "response_code" : "",
+  "transaction_reference" : "REF_1666776108202",
+  "authentication" : "",
+  "operator" : "MSP",
+  "amount" : {
+    "currency" : "VND",
+    "total" : "1000.00",
+    "purchase_total" : "10000.00"
+  },
+  "can_void" : false,
+  "transaction_purchase_time" : "2022-10-26T16:21:46Z",
+  "card" : {
+    "card_number" : "400000****0002",
+    "card_type" : "Visa",
+    "name_on_card" : "",
+    "card_date" : {
+      "month" : "05",
+      "year" : "24"
+    },
+    "commercical_card" : "",
+    "commercial_card_indicator" : ""
+  },
+  "csc_result_code" : "",
+  "mid_no" : "",
+  "data" : "",
+  "last_update" : "",
+  "n_step_approval" : "0",
+  "refund_type" : "1"
+}

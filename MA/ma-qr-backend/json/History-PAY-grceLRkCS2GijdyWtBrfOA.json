@@ -1,0 +1,60 @@
+{
+    "transactions" : [ {
+      "advancedStatus" : "Successful",
+      "amount" : {
+        "total" : 1000.0,
+        "currency" : "VND",
+        "refundTotal" : 1000.0
+      },
+      "description" : "{\"operator\":\"51DD7C9C7DA6A2788F4AB53B56BE6811\",\"note\":\"\"}",
+      "merchantTxnRef" : "TEST_1666847761029-1580974084",
+      "originalId" : "PAY-grceLRkCS2GijdyWtBrfOA",
+      "status" : "approved",
+      "transactionId" : "REF-GCBGTFBYLSTDY3GT",
+      "transactionTime" : "Oct 27, 2022, 12:16:57 PM",
+      "transactionType" : "Refund"
+    }, {
+      "advancedStatus" : "OnePAY Approved",
+      "amount" : {
+        "total" : 1000.0,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_1666847761029-1580974084",
+      "note" : "",
+      "operatorId" : "admin@onepay.vn",
+      "originalId" : "PAY-grceLRkCS2GijdyWtBrfOA",
+      "status" : "403",
+      "transactionId" : "30387",
+      "transactionTime" : "Oct 27, 2022, 12:16:34 PM",
+      "transactionType" : "Request Refund"
+    }, {
+      "advancedStatus" : "Merchant Approved",
+      "amount" : {
+        "total" : 1000.0,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_1666847761029-1580974084",
+      "note" : "",
+      "operatorId" : "admin@onepay.vn",
+      "originalId" : "PAY-grceLRkCS2GijdyWtBrfOA",
+      "status" : "403",
+      "transactionId" : "30386",
+      "transactionTime" : "Oct 27, 2022, 12:16:29 PM",
+      "transactionType" : "Request Refund"
+    }, {
+      "advancedStatus" : "Successful",
+      "amount" : {
+        "total" : 1000.0,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_1666847761029-1580974084",
+      "originalId" : "PAY-grceLRkCS2GijdyWtBrfOA",
+      "status" : "approved",
+      "transactionId" : "PAY-grceLRkCS2GijdyWtBrfOA",
+      "transactionTime" : "Oct 27, 2022, 12:16:15 PM",
+      "transactionType" : "Purchase"
+    } ]
+}

@@ -1,0 +1,163 @@
+{
+	"data": [
+		{
+			"input": {
+				"transaction_id": "3305779"
+			},
+			"output": {
+				"row_num": "0",
+				"transaction_id": "3305779",
+				"transaction_type": "Purchase",
+				"acquirer": {
+					"acquirer_id": 14,
+					"acquirer_name": "VPB",
+					"acquirer_short_name": "VPBank"
+				},
+				"merchant_id": "TESTONEPAY",
+				"card": {
+					"card_number": "****0002",
+					"card_holder_name": "NGUYEN VAN A/",
+					"card_date": {
+						"month": "01",
+						"year": "13"
+					},
+					"card_verification_code": "0",
+					"card_verification_info": "CARD,Thong tin the/tai khoan dung,OTP =4,bank response code=0"
+				},
+				"merchant_transaction_ref": "1467251001",
+				"transaction_time": "2022-10-28T14:40:03Z",
+				"auth_time": "2022-10-28T14:40:36Z",
+				"order_info": "TEST_12292814353",
+				"amount": {
+					"total": 12343234.0,
+					"currency": "VND",
+					"refund_total": 0.0
+				},
+				"status": "400",
+				"refund_status": "0",
+				"transaction_info": "VM:null|V CARD:00|OTP Verify-OTP OK - Sale thanh cong",
+				"ip_address": "127.0.0.1",
+				"operator_id": "",
+				"advance_status": "Successful",
+				"wait_for_approval_amount": "0.00",
+				"response_code": "",
+				"customer_name": "",
+				"customer_mobile": "null",
+				"customer_email": "acv@gmail.com",
+				"fraud_check": "Wait for check External",
+				"epp": "",
+				"n_fraud": "0",
+				"order_status": "",
+				"order_desc": "",
+				"order_user_confirm": "",
+				"order_date_confirm": ""
+			}
+		},
+		{
+			"input": {
+				"transaction_id": "3305777"
+			},
+			"output": {
+				"row_num": "0",
+				"transaction_id": "3305777",
+				"transaction_type": "Purchase",
+				"acquirer": {
+					"acquirer_id": 1,
+					"acquirer_name": "Vietcombank",
+					"acquirer_short_name": "Vietcombank"
+				},
+				"merchant_id": "TESTONEPAY",
+				"card": {
+					"card_number": "****0002",
+					"card_holder_name": "NGUYEN VAN A",
+					"card_date": {
+						"month": "01",
+						"year": "13"
+					},
+					"card_verification_code": "0",
+					"card_verification_info": ",HashCode:,,OTP =1:OTP Checked"
+				},
+				"merchant_transaction_ref": "TEST_16346925085674-1929984176",
+				"transaction_time": "2022-10-28T09:46:17Z",
+				"auth_time": "2022-10-28T09:48:08Z",
+				"order_info": "Ma Don Hang",
+				"amount": {
+					"total": 40000.0,
+					"currency": "VND",
+					"refund_total": 0.0
+				},
+				"status": "400",
+				"refund_status": "0",
+				"transaction_info": "VM:84987654321|caic:TESTONEPAY| Vefify Card-1|OTP",
+				"ip_address": "127.0.0.1",
+				"operator_id": "",
+				"advance_status": "Successful",
+				"wait_for_approval_amount": "0.00",
+				"response_code": "",
+				"customer_name": "Test User",
+				"customer_mobile": "84987654321",
+				"customer_email": "test@onepay.vn",
+				"fraud_check": "Wait for check External",
+				"epp": "",
+				"n_fraud": "0",
+				"order_status": "",
+				"order_desc": "",
+				"order_user_confirm": "",
+				"order_date_confirm": ""
+			}
+		},
+		{
+			"input": {
+				"transaction_id": "3305775"
+			},
+			"output": {
+				"row_num": "0",
+				"transaction_id": "3305775",
+				"transaction_type": "Purchase",
+				"acquirer": {
+					"acquirer_id": 15,
+					"acquirer_name": "ABBank",
+					"acquirer_short_name": "ABBank"
+				},
+				"merchant_id": "TESTONEPAY",
+				"card": {
+					"card_number": "****0001",
+					"card_holder_name": "NGUYEN VAN A",
+					"card_date": {
+						"month": "01",
+						"year": "13"
+					},
+					"card_verification_code": "0",
+					"card_verification_info": "1:Thong tin the dung,OTP =0:OTP Checked"
+				},
+				"merchant_transaction_ref": "TEST_1666923937497-1372612442",
+				"transaction_time": "2022-10-28T09:25:53Z",
+				"auth_time": "2022-10-28T09:26:15Z",
+				"order_info": "Ma Don Hang",
+				"amount": {
+					"total": 100000.0,
+					"currency": "VND",
+					"refund_total": 0.0
+				},
+				"status": "400",
+				"refund_status": "0",
+				"transaction_info": "VM:84987654321|Vefify Card|OTP",
+				"ip_address": "127.0.0.1",
+				"operator_id": "",
+				"advance_status": "Successful",
+				"wait_for_approval_amount": "0.00",
+				"response_code": "",
+				"customer_name": "Test User",
+				"customer_mobile": "84987654321",
+				"customer_email": "test@onepay.vn",
+				"fraud_check": "Wait for check External",
+				"epp": "",
+				"n_fraud": "0",
+				"order_status": "",
+				"order_desc": "",
+				"order_user_confirm": "",
+				"order_date_confirm": ""
+			}
+		}
+	]
+}

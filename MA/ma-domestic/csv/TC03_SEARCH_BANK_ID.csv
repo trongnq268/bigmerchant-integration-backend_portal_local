@@ -1,0 +1,2 @@
+input;output
+{"merchant_id":"","from_date": "25/10/2022 12:00 AM","to_date": "26/10/2022 11:59 PM","transaction_id": "","merchant_transaction_ref": "","order_info": "","card_number": "","acquirer_id": "1|47|32","status": "","transaction_type": "","customer_email": "","customer_mobile": "","merchant_website": "","fraud_check": "","page_size": 100,"page": 0,"target": "v2"};{"acquirer_id": "1|47|32"}

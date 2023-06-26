@@ -1,0 +1,2 @@
+input;output;note
+{"fromDate": "01/06/2023","toDate": "07/06/2023","merchantId":"","interval": "","masking": "","cardType": "","appName": "","acqCode": "","platform": "2c2p","tid": "","mid": "","channel": "","qrType":"","merchantChannel":""};[{"field": "platform", "value": "2C2P", "condition": "equal"}, {"field": "platform", "value": "2C2P", "condition": "equal"}];{filter by platform - program refferent(2C2P,BaoCongNghe)}

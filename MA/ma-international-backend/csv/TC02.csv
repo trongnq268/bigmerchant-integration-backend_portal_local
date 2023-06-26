@@ -1,0 +1,2 @@
+input;output
+{"merchant_id":"","from_date" : "20/07/2022 12:00 AM","to_date": "23/10/2022 11:59 PM","transaction_id": "","order_info": "","merchant_transaction_ref": "","card_number": "","authorisation_code": "","card_type": "","currency": "","transaction_type": "Refund Dispute","transaction_state": "","installment_bank": "","installment_status": "","risk_assessment": "","hidden_column": "","page": 0,"page_size": 100};{"trans_type": "Refund Dispute"}

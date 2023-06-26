@@ -1,0 +1,66 @@
+{
+  "transactions" : [ {
+    "transaction_id" : "29698182",
+    "original_transaction_id" : "29698180",
+    "response_code" : "0",
+    "reference_number" : "6649573625586652203011",
+    "merchant_transaction_ref" : "REF_1664957361791",
+    "transaction_type" : "Void Refund",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_VOID_REFUND",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T15:09:21Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649573625586652203011",
+    "note" : "",
+    "parent_id" : "29698181",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698181",
+    "original_transaction_id" : "29698180",
+    "response_code" : "0",
+    "reference_number" : "6649573612666757603009",
+    "merchant_transaction_ref" : "REF_1664957360542",
+    "transaction_type" : "Refund",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_REFUND",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T15:09:20Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649573612666757603009",
+    "note" : "",
+    "parent_id" : "29698180",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698180",
+    "original_transaction_id" : "29698180",
+    "response_code" : "0",
+    "reference_number" : "29698180",
+    "merchant_transaction_ref" : "REF_1664957357784",
+    "transaction_type" : "Purchase",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "0",
+    "operator_id" : "",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T15:09:19Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649573597386626303007",
+    "note" : "",
+    "parent_id" : "29698180",
+    "subHistories" : ""
+  } ]
+}

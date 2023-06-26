@@ -1,0 +1,21 @@
+[
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "Vietcombank"
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    }
+]

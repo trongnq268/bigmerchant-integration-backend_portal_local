@@ -1,0 +1,29 @@
+{
+  "listHistoryRefund": [
+    {
+      "payLaterAmount": "950000.00",
+      "reasonName": "KREDIVO_SUCCESS",
+      "dbAmount": "950000.00",
+      "note": null,
+      "amount": "1000000.00",
+      "createDate2": "2023-01-17T09:46:30Z",
+      "insBrandId": "kredivo",
+      "settlementDate": "17/01/2023 09:46:41",
+      "firstPaymentAmount": "0.00",
+      "transactionId": "PAY-pXTKgJADSd-wooAhsfQUnQ",
+      "partnerDiscountAmount": "50000",
+      "transactionType": "Pay Later",
+      "transAmount": "950000.00",
+      "canceled": null,
+      "merchantDiscountAmount": "0",
+      "orgAmountTotal": "1000000.00",
+      "provider": "KREDIVO",
+      "currency": "VND",
+      "originalId": "PAY-pXTKgJADSd-wooAhsfQUnQ",
+      "operatorId": "",
+      "createDate": "17/01/2023 09:46:30",
+      "status": "approved"
+    }
+  ],
+  "Error": "200"
+}

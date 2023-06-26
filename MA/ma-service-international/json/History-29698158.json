@@ -1,0 +1,66 @@
+{
+  "transactions" : [ {
+    "transaction_id" : "29698158",
+    "original_transaction_id" : "29698156",
+    "response_code" : "0",
+    "reference_number" : "6649564035656247103012",
+    "merchant_transaction_ref" : "REF_1664956402820",
+    "transaction_type" : "Refund Capture",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_REFUND",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T14:53:22Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649564035656247103012",
+    "note" : "",
+    "parent_id" : "29698157",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698157",
+    "original_transaction_id" : "29698156",
+    "response_code" : "0",
+    "reference_number" : "6649564023656288203008",
+    "merchant_transaction_ref" : "REF_1664956401586",
+    "transaction_type" : "Capture",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "CONFIRM_CAPTURE",
+    "operator_id" : "PSP-ONECREDIT",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T14:53:21Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649564023656288203008",
+    "note" : "",
+    "parent_id" : "29698156",
+    "subHistories" : ""
+  }, {
+    "transaction_id" : "29698156",
+    "original_transaction_id" : "29698156",
+    "response_code" : "0",
+    "reference_number" : "29698156",
+    "merchant_transaction_ref" : "REF_1664956398853",
+    "transaction_type" : "Authorize",
+    "amount" : {
+      "total" : "10000.00",
+      "currency" : "VND",
+      "refund_total" : ""
+    },
+    "status" : "0",
+    "operator_id" : "",
+    "merchant_id" : "TESTOP2D",
+    "transaction_time" : "2022-10-05T14:53:20Z",
+    "advance_status" : "Successful",
+    "financial_transaction_id" : "6649564008646228603007",
+    "note" : "",
+    "parent_id" : "29698156",
+    "subHistories" : ""
+  } ]
+}

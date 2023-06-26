@@ -1,0 +1,4 @@
+input;output;note
+{"transactionId":"grceLRkCS2GijdyWtBrfOA","transactionType": "Purchase","transactionState": ""};{"field": "compare_json_response", "value": "History-PAY-grceLRkCS2GijdyWtBrfOA.json", "condition": "equal"};{filter by trans type}
+{"transactionId":"PAY-3JywROdpRnykTPV6sVCscA","transactionType": "Purchase","transactionState": ""};{"field": "compare_json_response", "value": "History-PAY-3JywROdpRnykTPV6sVCscA.json", "condition": "equal"};{filter by trans type}
+{"transactionId":"PAY-jYMQ-g8PT6KywtoRranx7Q","transactionType": "Purchase","transactionState": ""};{"field": "compare_json_response", "value": "History-PAY-jYMQ-g8PT6KywtoRranx7Q.json", "condition": "equal"};{filter by trans type}

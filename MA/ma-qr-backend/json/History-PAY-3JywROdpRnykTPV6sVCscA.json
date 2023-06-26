@@ -1,0 +1,60 @@
+{
+    "transactions" : [ {
+      "advancedStatus" : "Successful",
+      "amount" : {
+        "total" : 1.0000341E7,
+        "currency" : "VND",
+        "refundTotal" : 1.0000341E7
+      },
+      "description" : "{\"operator\":\"51DD7C9C7DA6A2788F4AB53B56BE6811\",\"note\":\"\"}",
+      "merchantTxnRef" : "TEST_1666172051387-1479110865",
+      "originalId" : "PAY-3JywROdpRnykTPV6sVCscA",
+      "status" : "approved",
+      "transactionId" : "REF-QUR2MYWDTZ7TDBGJ",
+      "transactionTime" : "Oct 19, 2022, 4:35:48 PM",
+      "transactionType" : "Refund"
+    }, {
+      "advancedStatus" : "OnePAY Approved",
+      "amount" : {
+        "total" : 1.0000341E7,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_1666172051387-1479110865",
+      "note" : "",
+      "operatorId" : "admin@onepay.vn",
+      "originalId" : "PAY-3JywROdpRnykTPV6sVCscA",
+      "status" : "403",
+      "transactionId" : "29562",
+      "transactionTime" : "Oct 19, 2022, 4:35:31 PM",
+      "transactionType" : "Request Refund"
+    }, {
+      "advancedStatus" : "Merchant Approved",
+      "amount" : {
+        "total" : 1.0000341E7,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_1666172051387-1479110865",
+      "note" : "",
+      "operatorId" : "admin@onepay.vn",
+      "originalId" : "PAY-3JywROdpRnykTPV6sVCscA",
+      "status" : "403",
+      "transactionId" : "29561",
+      "transactionTime" : "Oct 19, 2022, 4:35:26 PM",
+      "transactionType" : "Request Refund"
+    }, {
+      "advancedStatus" : "Successful",
+      "amount" : {
+        "total" : 1.0000341E7,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_1666172051387-1479110865",
+      "originalId" : "PAY-3JywROdpRnykTPV6sVCscA",
+      "status" : "approved",
+      "transactionId" : "PAY-3JywROdpRnykTPV6sVCscA",
+      "transactionTime" : "Oct 19, 2022, 4:34:49 PM",
+      "transactionType" : "Purchase"
+    } ]
+}

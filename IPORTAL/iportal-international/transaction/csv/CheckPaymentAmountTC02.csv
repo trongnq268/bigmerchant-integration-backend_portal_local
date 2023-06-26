@@ -1,0 +1,7 @@
+input;output;note
+{"transactionId": "32435772"};[{"field": "amount.total", "value": "3034000.00", "condition": "equal"}, {"field": "amount.originalTotal", "value": "3000000.00", "condition": "equal"}];{purchase}
+{"transactionId": "32435617"};[{"field": "amount.total", "value": "10000.00", "condition": "equal"}, {"field": "amount.originalTotal", "value": "10000.00", "condition": "equal"}];{authozire}
+{"transactionId": "32435641"};[{"field": "amount.total", "value": "500.00", "condition": "equal"}, {"field": "amount.originalTotal", "value": "2000.00", "condition": "equal"}];{capture}
+{"transactionId": "32435736"};[{"field": "amount.total", "value": "1000.00", "condition": "equal"}, {"field": "amount.originalTotal", "value": "1000.00", "condition": "equal"}];{refund}
+{"transactionId": "32435569"};[{"field": "amount.total", "value": "10000.00", "condition": "equal"}, {"field": "amount.originalTotal", "value": "10000.00", "condition": "equal"}];{VOID_AUTHORIZE}
+{"transactionId": "32435679"};[{"field": "amount.total", "value": "10000.00", "condition": "equal"}, {"field": "amount.originalTotal", "value": "10000.00", "condition": "equal"}];{VOID_PURCHASE}

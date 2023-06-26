@@ -1,0 +1,45 @@
+{
+    "totalItems": "",
+    "list": [
+        {
+            "transactionId": "REF-NUPFF8EUNFTB9HQU",
+            "originalId": "PAY-A-ARIeTvSY65q4-5yUIC1g",
+            "orderInfo": "Ma Don Hang",
+            "merchantTransactionRef": "TESTONEPAYUSD_7eb987a0-d4e7-45f",
+            "transactionType": "Refund",
+            "amount": {
+                "total": "1.00",
+                "originalTotal": "",
+                "currency": "USD",
+                "refund_total": ""
+            },
+            "status": "approved",
+            "transactionTime": "Nov 24, 2022, 6:05:23 PM",
+            "advancedStatus": "Successful",
+            "currency": "USD",
+            "merchantDiscountAmount": 0,
+            "partnerDiscountAmount": 0,
+            "paymentAmount": 2
+        },
+        {
+            "transactionId": "PAY-A-ARIeTvSY65q4-5yUIC1g",
+            "originalId": "PAY-A-ARIeTvSY65q4-5yUIC1g",
+            "orderInfo": "Ma Don Hang",
+            "merchantTransactionRef": "TEST_16686617405971666249265",
+            "transactionType": "Purchase",
+            "amount": {
+                "total": "0.00",
+                "originalTotal": "",
+                "currency": "USD",
+                "refund_total": ""
+            },
+            "status": "approved",
+            "transactionTime": "Nov 17, 2022, 12:10:04 PM",
+            "advancedStatus": "Successful",
+            "currency": "USD",
+            "merchantDiscountAmount": 0,
+            "partnerDiscountAmount": 0,
+            "paymentAmount": 2
+        }
+    ]
+}

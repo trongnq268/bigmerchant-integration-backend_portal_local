@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"input": {
+				"id": 0,
+				"ruleName": "TEST_RULE_1120",
+				"ruleType": 462631,
+				"paramters": "test1324352",
+				"description": ""
+			},
+			"output": {
+				"message":"Success"
+			}
+		},
+		{
+			"input": {
+				"id": 0,
+				"ruleName": "TEST_RULE_1122",
+				"ruleType": 462631,
+				"paramters": "test1324352ưerwetre",
+				"description": "111ffasegrhrtj"
+			},
+			"output": {
+				"message":"Success"
+			}
+		}
+	]
+}

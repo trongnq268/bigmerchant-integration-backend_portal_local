@@ -1,0 +1,180 @@
+[
+    {
+        "input": {
+            "body": {
+                "desc": "",
+                "merchantId": "",
+                "url": ""
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "desc": "",
+                "merchantId": "",
+                "url": ""
+            },
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MerchantId is required\nURL is required",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "",
+                        "message": "MerchantId is required"
+                    }, 
+                    {
+                        "param": "URL",
+                        "value": "",
+                        "message": "URL is required"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "desc": "",
+                "merchantId": "",
+                "url": ""
+            },
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MerchantId is required\nURL is required",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "",
+                        "message": "MerchantId is required"
+                    }, 
+                    {
+                        "param": "URL",
+                        "value": "",
+                        "message": "URL is required"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "desc": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                "merchantId": "",
+                "url": ""
+            },
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MerchantId is required\nURL is required\nDesc maximum length is 200",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "",
+                        "message": "MerchantId is required"
+                    }, 
+                    {
+                        "param": "URL",
+                        "value": "",
+                        "message": "URL is required"
+                    },
+                    {
+                        "param": "Desc",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "Desc maximum length is 200"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "desc": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                "merchantId": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                "url": ""
+            },
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Desc maximum length is 200\nMerchantId maximum length is 100\nURL is required",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                        "message": "MerchantId maximum length is 100"
+                    }, 
+                    {
+                        "param": "URL",
+                        "value": "",
+                        "message": "URL is required"
+                    },
+                    {
+                        "param": "Desc",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "Desc maximum length is 200"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "desc": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                "merchantId": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                "url": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M"
+            },
+            "X-USER-ID": "thang"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Desc maximum length is 200\nMerchantId maximum length is 100\nURL maximum length is 100",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                        "message": "MerchantId maximum length is 100"
+                    }, 
+                    {
+                        "param": "URL",
+                        "value": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                        "message": "URL maximum length is 100"
+                    },
+                    {
+                        "param": "Desc",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "Desc maximum length is 200"
+                    }
+                ]
+            }
+        }
+    }
+]

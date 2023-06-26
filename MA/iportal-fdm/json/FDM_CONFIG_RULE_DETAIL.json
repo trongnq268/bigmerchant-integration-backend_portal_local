@@ -1,0 +1,42 @@
+{
+	"data": [
+		{
+			"input": {
+				"id": "1695"
+				},
+			"output": {
+				"message":"Success",
+				"data": {
+					"id": 1695,
+					"ruleName": "CARD_COUNT_4",
+					"ruleTypeName": "CARD_COUNT",
+					"desc": "Mot the phat sinh 4 giao dich/24h",
+					"params": "4,1440",
+					"createDate": "",
+					"createBy": "",
+					"updateDate": "",
+					"updateBy": ""
+				}
+			}
+		},
+		{
+			"input": {
+				"id": "1795"
+				},
+			"output": {
+				"message":"Success",
+				"data": {
+					"id": 1795,
+					"ruleName": "CARD_COUNT_7",
+					"ruleTypeName": "CARD_COUNT",
+					"desc": "Mot the phat sinh 7 giao dich/24h",
+					"params": "7,1440",
+					"createDate": "",
+					"createBy": "",
+					"updateDate": "",
+					"updateBy": ""
+				}
+			}
+		}
+	]
+}

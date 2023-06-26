@@ -1,0 +1,2 @@
+input;output
+{"transaction_id": "3305777"};[{"transactions":[{"transaction_id":3305777,"original_id":3305777,"merchant_transaction_ref":"TEST_16346925085674-1929984176","transaction_type":"Purchase","amount":{"total":40000.0,"currency":"VND"},"status":"Successful","advanced_status":"Successful","transaction_time":"Oct 28, 2022, 9:46:17 AM"}]}]

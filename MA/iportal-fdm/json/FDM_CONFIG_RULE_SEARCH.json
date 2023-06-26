@@ -1,0 +1,48 @@
+{
+	"data": [
+		{
+			"input": {
+				"text": "COUNT",
+				"fraudType": "",
+				"page": 0,
+				"pageSize": 10
+				},
+			"output": {
+				"ruleName": "COUNT"
+			}
+		},
+		{
+			"input": {
+				"text": "Một Order Ref thanh toán Fail quá 03 lần trong vòng 24h",
+				"fraudType": "",
+				"page": 0,
+				"pageSize": 10
+				},
+			"output": {
+				"desc": "Một Order Ref thanh toán Fail quá 03 lần trong vòng 24h"
+			}
+		},
+		{
+			"input": {
+				"text": "AMEX_AMOUNT_10Trieu",
+				"fraudType": "",
+				"page": 0,
+				"pageSize": 10
+				},
+			"output": {
+				"ruleTypeName": "AMEX_AMOUNT"
+			}
+		},
+		{
+			"input": {
+				"text": "CARD_",
+				"fraudType": "CARD_COUNT",
+				"page": 0,
+				"pageSize": 10
+				},
+			"output": {
+				"ruleTypeName": "CARD_COUNT"
+			}
+		}
+	]
+}

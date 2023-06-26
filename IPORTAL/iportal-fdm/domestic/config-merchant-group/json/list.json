@@ -1,0 +1,18 @@
+[
+    {
+        "input": {
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401
+        }
+    },
+    {
+        "input": {
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 200
+        }
+    }
+]

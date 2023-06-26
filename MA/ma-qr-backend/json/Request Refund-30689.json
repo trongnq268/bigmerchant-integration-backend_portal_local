@@ -1,0 +1,35 @@
+{
+    "acqCode" : "ONUS",
+    "appName" : "Vietcombank",
+    "amount" : {
+      "total" : 1000.0,
+      "currency" : "VND",
+      "refundTotal" : 0.0
+    },
+    "instrument" : {
+      "type" : " ",
+      "name" : "NGUYEN VAN A",
+      "number" : "*********1234",
+      "brandId" : "vietcombank"
+    },
+    "bankMerchantId" : "",
+    "bankTerminalId" : "",
+    "bankTransId" : "MhTSH-SPDuUbVfv",
+    "client" : "VIETINQR",
+    "clientId" : "VIETINQR",
+    "createTime" : "Nov 4, 2022, 4:08:09 PM",
+    "inputType" : "VPC",
+    "invoiceId" : "INV-SW496MD37RGFYZEZ",
+    "masking" : "OFFUS",
+    "merchantId" : "TESTONEPAY",
+    "merchantName" : "TEST ONEPAY S_NAME",
+    "merchantOrderRef" : "TEST_1667552766737-450411242",
+    "orderInfo" : "Ma Don Hang",
+    "qrId" : "M6p3OS6gQaeM",
+    "status" : "405",
+    "transactionId" : "30689",
+    "merchantTxnRef" : "TEST_1667552766737-450411242",
+    "transactionType" : "Request Refund",
+    "originalId" : "PAY-1CK4qljQSzmjRzBj8DRbbQ",
+    "advanceStatus" : "Waiting for OnePAY's Approval"
+}

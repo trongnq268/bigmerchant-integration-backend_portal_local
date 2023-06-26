@@ -1,0 +1,241 @@
+[
+    {
+        "input": {
+            "body": {
+                "internalMccId": "string",
+                "lstConfigReviewDeSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "lstConfigReviewSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "merchantGroupId": 0,
+                "merchantId": "TESTONEPAY",
+                "ruleNote": "string"
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "internalMccId": "string",
+                "lstConfigReviewDeSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "lstConfigReviewSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "merchantGroupId": 0,
+                "merchantId": "",
+                "ruleNote": "string"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MerchantId is required",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "",
+                        "message": "MerchantId is required"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "internalMccId": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                "lstConfigReviewDeSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "lstConfigReviewSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "merchantGroupId": 0,
+                "merchantId": "TESTONEPAY",
+                "ruleNote": "string"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "InternalMccId maximum length is 200",
+                "details": [
+                    {
+                        "param": "InternalMccId",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "InternalMccId maximum length is 200"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "internalMccId": "",
+                "lstConfigReviewDeSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "lstConfigReviewSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "merchantGroupId": 0,
+                "merchantId": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                "ruleNote": "string"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "MerchantId maximum length is 100",
+                "details": [
+                    {
+                        "param": "MerchantId",
+                        "value": "AqmxETBVWDc8qTBO2Y3CEr1DMGpvNufhuJRfQ6m3uVwHKjEswXyB3XyiEER2KWNPqkhcxC7ZOEwyfPgNzro7v26ByZplG2Td0xm6M",
+                        "message": "MerchantId maximum length is 100"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "body": {
+                "internalMccId": "",
+                "lstConfigReviewDeSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "lstConfigReviewSelect": [
+                    {
+                        "createBy": "string",
+                        "desc": "string",
+                        "id": 0,
+                        "name": "string",
+                        "params": "string",
+                        "ruleTypeId": 0,
+                        "typeName": "string",
+                        "updateBy": "string"
+                    }
+                ],
+                "merchantGroupId": 0,
+                "merchantId": "TESTONEPAY",
+                "ruleNote": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "RuleNote maximum length is 200",
+                "details": [
+                    {
+                        "param": "RuleNote",
+                        "value": "z2TRecx2wWNBA5KsW7VECueVg56UGZowRDtdouv1cneY9KKajZmHCE3D745MPZoZpKfNeszycyhQz8J70fhFwgCsiR9xdXLcwU8A9VSsrmWuiIz7T6mPXT4DY3wioxiTub3SmY7rAne8OU6FGrmvQ6lFrIMZXtklzAz45jejt5WyhwLdgws9zFjRXJU22ukrFtW37LMlV",
+                        "message": "RuleNote maximum length is 200"
+                    }
+                ]
+            }
+        }
+    }
+]

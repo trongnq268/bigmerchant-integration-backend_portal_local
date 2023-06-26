@@ -1,0 +1,2 @@
+input;output;note
+{"transactionId":"REF-NUPFF8EUNFTB9HQU","transactionType": "","transactionState": ""};{"field": "compare_json_response", "value": "RefundHistory-REF-NUPFF8EUNFTB9HQU.json", "condition": "equal"};{filter by transactionId}

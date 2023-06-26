@@ -1,0 +1,9 @@
+search by Merchant id,merchant_id,TESTONEPAY,merchant_id,TESTONEPAY
+search by orderInfo,order_info,Ma Don Hang,order_info,Ma Don Hang
+search by Transaction ID,transaction_id,PAY-_H87WKfPRXiuo35H7aE4yw,transaction_id,PAY-_H87WKfPRXiuo35H7aE4yw
+search by Promotion code,promotion_code,B56DBF0DBD089772D45AF07465745F21,promotion_code,B56DBF0DBD089772D45AF07465745F21
+search by Promotion name,promotion_id,thuongtx,promotion_name,thuongtx
+search by paygate,paygate,BNPL,paygate,BNPL
+check respone code successful,transaction_id,PAY-_H87WKfPRXiuo35H7aE4yw,response_code,0
+check respone code false,transaction_id,PAY-1pMK6msrTRSRhtBjzcw5Dg,response_code,2
+search by card number,card_number,400000*****002,card,"{'card_number': '400000*****002', 'card_date': {'month': '', 'year': ''}, 'card_type': 'card', 'commercial_card': ''}"

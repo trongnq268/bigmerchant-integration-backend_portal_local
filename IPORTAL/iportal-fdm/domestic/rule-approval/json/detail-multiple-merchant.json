@@ -1,0 +1,42 @@
+[
+    {
+        "input": {
+            "id": 1,
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "id": "abc",
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "strconv.Atoi: parsing \"abc\": invalid syntax",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "id": "1",
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 200,
+            "body": {
+                "data": {}
+            }
+        }
+    }
+]

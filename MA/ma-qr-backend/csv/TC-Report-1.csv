@@ -1,0 +1,6 @@
+search by merchant id,merchantId,TESTONEPAY,merchantId,TESTONEPAY
+search by interval daily,interval,1,reportDate,2022-12-09T00:00:00Z
+search by interval weekly,interval,2,reportDate,2022-12-03T00:00:00Z
+search by interval monthly,interval,3,reportDate,2022-12-01T00:00:00Z
+search by interval yearly,interval,4,reportDate,2022-01-01T00:00:00Z
+search by appName,appName,GrabPay,appName,GrabPay

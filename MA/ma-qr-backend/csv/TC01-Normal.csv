@@ -1,0 +1,16 @@
+search by merchant id,merchantId,TESTONEPAY,merchantId,TESTONEPAY
+search by transaction Id,transactionId,PAY-oLAsZQFXRhGWALe1FF9btQ,originalId,PAY-oLAsZQFXRhGWALe1FF9btQ
+search by order Info,orderInfo,TEST_1221121102742,orderReference,TEST_1221121102742
+search by merchant Transaction Ref purchase,merchantTransactionRef,TEST_16717662262611115709067,merchantTransRef,TEST_16717662262611115709067
+search by merchant Transaction Ref refund,merchantTransactionRef,25641191,merchantTransRef,25641191
+search by merchant Transaction Ref request refund,merchantTransactionRef,TESTONEPAY_2b2fc99d-b6f0-4972-a,merchantTransRef,TESTONEPAY_2b2fc99d-b6f0-4972-a
+search by qrId,qrId,B1671766469142,qrId,B1671766469142
+search by appName,appName,Vietcombank,appName,Vietcombank
+search by transactionType,transactionType,Purchase,transactionType,Purchase
+search by transactionType,transactionType,Refund,transactionType,Refund
+search by transactionType,transactionType,Request Refund,transactionType,Request Refund
+search by status,status,approved,status,approved
+search by status,status,failed,status,failed
+search by status,status,pending,status,pending
+search by status,status,401,status,401
+search by status,status,405,status,405

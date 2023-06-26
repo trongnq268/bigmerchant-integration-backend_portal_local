@@ -1,0 +1,2 @@
+input;output;note
+{"transactionId":"PAY-pXTKgJADSd-wooAhsfQUnQ","transactionType": "","status": ""};{"field": "compare_json_response", "value": "History-PAY-pXTKgJADSd-wooAhsfQUnQ.json", "condition": "equal"};{filter by transactionId}

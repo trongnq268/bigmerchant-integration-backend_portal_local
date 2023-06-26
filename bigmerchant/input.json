@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Capture",
+		"data": {
+			"c1": {
+				"request": {
+					"url": "https://mtf.onepay.vn/paygate/api/v1/vpc/merchants/",
+					"method": "PUT",
+					"query_param": {
+						"vpc_Amount": "100000",
+						"vpc_Version": "2",
+						"vpc_Command": "capture",
+						"vpc_Merchant": "TESTONEPAY",
+						"vpc_operator": "test"
+					}
+				},
+				"response": {
+					"http_code": "200",
+					"body": "vpc_TxnResponseCode=0",
+					"redirect_url": ""
+				}
+			}
+		}
+	},
+    {
+		"name": "Capture2",
+		"data": {
+			"c1": {
+				"request": {
+					"url": "https://mtf.onepay.vn/paygate/api/v1/vpc/merchants/",
+					"method": "PUT",
+					"query_param": {
+						"vpc_Amount": "100000",
+						"vpc_Version": "2",
+						"vpc_Command": "capture",
+						"vpc_Merchant": "TESTONEPAY",
+						"vpc_operator": "test"
+					}
+				},
+				"response": {
+					"http_code": "200",
+					"body": "vpc_TxnResponseCode=0",
+					"redirect_url": ""
+				}
+			}
+		}
+	}
+]

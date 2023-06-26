@@ -1,0 +1,89 @@
+{
+  "totalItems": "",
+  "list": [
+    {
+      "transactionId": "31976.0",
+      "originalId": "PAY-VY8LpUj0QFa1RPqpNO_K8w",
+      "merchantTransactionRef": "TESTONEPAY_60fb9aeb-65f0-459e-a",
+      "transactionType": "Request Refund",
+      "amount": {
+        "total": "10000.00",
+        "originalTotal": "",
+        "currency": "VND",
+        "refund_total": ""
+      },
+      "operatorId": "user01@onepay.vn",
+      "transactionTime": "Nov 30, 2022, 2:30:42 PM",
+      "advancedStatus": "Waiting for Approval",
+      "parentId": "0",
+      "merchantDiscountAmount": 2500,
+      "partnerDiscountAmount": 2500,
+      "paymentAmount": 5000,
+      "subHistories": [
+        {
+          "transactionId": "31976.0",
+          "originalId": "PAY-VY8LpUj0QFa1RPqpNO_K8w",
+          "merchantTransactionRef": "TESTONEPAY_60fb9aeb-65f0-459e-a",
+          "transactionType": "Request Refund",
+          "amount": {
+            "total": "10000.00",
+            "originalTotal": "",
+            "currency": "VND",
+            "refund_total": ""
+          },
+          "operatorId": "user01@onepay.vn",
+          "transactionTime": "Nov 30, 2022, 2:30:42 PM",
+          "advancedStatus": "Waiting for Approval",
+          "parentId": "0",
+          "currency": "VND",
+          "originalAmount": 10000,
+          "merchantDiscountAmount": 2500,
+          "partnerDiscountAmount": 2500,
+          "paymentAmount": 5000
+        },
+        {
+          "transactionId": "31976.0",
+          "originalId": "PAY-VY8LpUj0QFa1RPqpNO_K8w",
+          "merchantTransactionRef": "TESTONEPAY_60fb9aeb-65f0-459e-a",
+          "transactionType": "Request Refund",
+          "amount": {
+            "total": "10000.00",
+            "originalTotal": "",
+            "currency": "VND",
+            "refund_total": ""
+          },
+          "operatorId": "user01@onepay.vn",
+          "transactionTime": "Nov 30, 2022, 2:30:42 PM",
+          "advancedStatus": "Waiting for Approval",
+          "parentId": "0",
+          "currency": "VND",
+          "originalAmount": 10000,
+          "merchantDiscountAmount": 2500,
+          "partnerDiscountAmount": 2500,
+          "paymentAmount": 5000
+        }
+      ]
+    },
+    {
+      "transactionId": "PAY-VY8LpUj0QFa1RPqpNO_K8w",
+      "originalId": "PAY-VY8LpUj0QFa1RPqpNO_K8w",
+      "orderInfo": "Ma Don Hang",
+      "merchantTransactionRef": "TEST_1669712861985750403776",
+      "transactionType": "Purchase",
+      "amount": {
+        "total": "10000.00",
+        "originalTotal": "",
+        "currency": "VND",
+        "refund_total": ""
+      },
+      "status": "approved",
+      "transactionTime": "Nov 29, 2022, 4:07:52 PM",
+      "advancedStatus": "Successful",
+      "currency": "VND",
+      "originalAmount": 10000,
+      "merchantDiscountAmount": 2500,
+      "partnerDiscountAmount": 2500,
+      "paymentAmount": 5000
+    }
+  ]
+}

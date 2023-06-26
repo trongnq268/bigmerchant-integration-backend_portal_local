@@ -1,0 +1,503 @@
+[
+    {
+        "input": {
+                "params": {
+                    "fromDate": "01/03/2022 00:00:00",
+                    "toDate": "01/03/2024 00:00:00",
+                    "pageSize": "200",
+                    "issuer": "Vietcombank",
+                    "customerName": "",
+                    "email" :"",
+                    "amount": "",
+                    "cardNumber": "",
+                    "epp": "",
+                    "fraudStatus": "",
+                    "markFraud": "",
+                    "merchantId": "",
+                    "merchantTxnRef": "",
+                    "orderRef": "",
+                    "phone": "",
+                    "pic": "",
+                    "qrChannel": "",
+                    "qrId": "",
+                    "responseCode": "",
+                    "transId": "",
+                    "cardList": "",
+                    "transType": "",
+                    "transState": ""
+                },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "data": [
+                      {
+                          "issuer": "Vietcombank",
+                          "orderRef": "BNPL_21042023_MP5",
+                          "merchantTxnRef": "tesster_1682415869529",
+                          "orderDate": "25/04/2023 16:45:07",
+                          "amount": 0,
+                          "currency": "VND",
+                          "cardNumber": "****0002",
+                          "cardList": "1",
+                          "tracking": null,
+                          "encryptCardNo": "xFcwaJIUR_5ij2PqLJDjFYSoo44qvmB5gUchgWdp1TJs9lpowKNPaa7Z4KM9Q95z",
+                          "hashCardNo": "Rrje7jONX7yz84h4QKhGPIXY6ER5SK_XoLyC19IgCDg",
+                          "bankInfoTelePhone": "1900 54 54 13",
+                          "merchantEmail": "hoabt@onepay.vn,huongnm@onepay.vn",
+                          "fraud": null,
+                          "mccDesc": "7011",
+                          "url": "|https://|http://",
+                          "ipAddress": "127.0.0.1",
+                          "ipCountry": "-",
+                          "cardVerificationInfo": ",HashCode:,",
+                          "transState": "Failed",
+                          "qrId": null,
+                          "qrChannel": null,
+                          "transId": "3318230",
+                          "partnerName": "TEST ONEPAY (TOÀN BỘ TÀI KHOẢN)",
+                          "transType": "Purchase",
+                          "responseCode": "Authentication failed",
+                          "email": "h***t@onepay.vn",
+                          "nameOnCard": "NGUYEN VAN A",
+                          "expireDate": "01/13",
+                          "customerName": "tesster",
+                          "customerPhone": "********78",
+                          "posLocation": "",
+                          "returnCode": "100",
+                          "fraudStatus": null,
+                          "pic": "",
+                          "markFraud": null,
+                          "merchantId": "TESTONEPAY",
+                          "accNumber": "",
+                          "ePP": "",
+                          "merchantName": "TESTONEPAY",
+                          "cardNote": "test cardnote 2",
+                          "emailNote": "test emailNote",
+                          "phoneNote": "test phoneNote",
+                          "ipNote": "test ip note",
+                          "orderNote": "test orderNote",
+                          "emailNoteBy": "Quản trị viên hệ thống",
+                          "phoneNoteBy": "Quản trị viên hệ thống",
+                          "ipNoteBy": "Quản trị viên hệ thống",
+                          "cardNoteBy": "Quản trị viên hệ thống",
+                          "orderNoteBy": "Quản trị viên hệ thống",
+                          "dateEmailNoted": "20/06/2023 00:47:03",
+                          "datePhoneNoted": "20/06/2023 01:15:19",
+                          "dateIpNoted": "21/06/2023 00:16:17",
+                          "dateCardNoted": "22/06/2023 18:51:00",
+                          "dateOrderNoted": "20/06/2023 00:51:50"
+                      }
+                  ],
+                  "total": 1
+              }
+        }
+    },   
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "Test+User",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"test@onepay.vn",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "100000",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "TESTTOKEN",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "****0000",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "TEST_16856146369651063240517",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "Ma Don Hang",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "Authentication failed",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "3321344",
+                "cardList": "",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "EXIMBANK",
+                "transType": "",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    }, {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "Purchase",
+                "transState": ""
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    }, {
+        "input": {
+            "params": {
+                "fromDate": "01/03/2022 00:00:00",
+                "toDate": "01/03/2024 00:00:00",
+                "pageSize": "200",
+                "issuer": "",
+                "customerName": "",
+                "email" :"",
+                "amount": "",
+                "cardNumber": "",
+                "epp": "",
+                "fraudStatus": "",
+                "markFraud": "",
+                "merchantId": "",
+                "merchantTxnRef": "",
+                "orderRef": "",
+                "phone": "",
+                "pic": "",
+                "qrChannel": "",
+                "qrId": "",
+                "responseCode": "",
+                "transId": "",
+                "cardList": "",
+                "transType": "",
+                "transState": "Successful"
+            },
+              "X-USER-ID": "51DD7C9C7DA6A2788F4AB53B56BE6811"
+        },
+        "output": {
+              "status": 200,
+              "body": {
+                  "message": "Success",
+                  "total": 1
+              }
+        }
+    }
+]

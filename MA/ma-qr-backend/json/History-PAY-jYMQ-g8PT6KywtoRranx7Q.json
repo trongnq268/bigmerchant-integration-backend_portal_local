@@ -1,0 +1,60 @@
+{
+    "transactions" : [ {
+      "advancedStatus" : "Successful",
+      "amount" : {
+        "total" : 100000.0,
+        "currency" : "VND",
+        "refundTotal" : 100000.0
+      },
+      "description" : "{\"operator\":\"51DD7C9C7DA6A2788F4AB53B56BE6811\",\"note\":\"\"}",
+      "merchantTxnRef" : "TEST_16661715747681833538409",
+      "originalId" : "PAY-jYMQ-g8PT6KywtoRranx7Q",
+      "status" : "approved",
+      "transactionId" : "REF-K9RCCUFLQDBU7YTE",
+      "transactionTime" : "Oct 19, 2022, 4:32:11 PM",
+      "transactionType" : "Refund"
+    }, {
+      "advancedStatus" : "OnePAY Approved",
+      "amount" : {
+        "total" : 100000.0,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_16661715747681833538409",
+      "note" : "",
+      "operatorId" : "admin@onepay.vn",
+      "originalId" : "PAY-jYMQ-g8PT6KywtoRranx7Q",
+      "status" : "403",
+      "transactionId" : "29559",
+      "transactionTime" : "Oct 19, 2022, 4:28:16 PM",
+      "transactionType" : "Request Refund"
+    }, {
+      "advancedStatus" : "Merchant Approved",
+      "amount" : {
+        "total" : 100000.0,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_16661715747681833538409",
+      "note" : "",
+      "operatorId" : "admin@onepay.vn",
+      "originalId" : "PAY-jYMQ-g8PT6KywtoRranx7Q",
+      "status" : "403",
+      "transactionId" : "29558",
+      "transactionTime" : "Oct 19, 2022, 4:28:09 PM",
+      "transactionType" : "Request Refund"
+    }, {
+      "advancedStatus" : "Successful",
+      "amount" : {
+        "total" : 100000.0,
+        "currency" : "VND",
+        "refundTotal" : 0.0
+      },
+      "merchantTxnRef" : "TEST_16661715747681833538409",
+      "originalId" : "PAY-jYMQ-g8PT6KywtoRranx7Q",
+      "status" : "approved",
+      "transactionId" : "PAY-jYMQ-g8PT6KywtoRranx7Q",
+      "transactionTime" : "Oct 19, 2022, 4:26:44 PM",
+      "transactionType" : "Purchase"
+    } ]
+}

@@ -1,0 +1,32 @@
+==============================================================================
+Bigmerchant                                                                   
+==============================================================================
+Bigmerchant.Create Authorization 2d Inline                                    
+==============================================================================
+Create Invoice                                                          
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Big Merchant\Big merchant\bigmerchant\Create_Authorization_2d_Inline.robot:14
+    T:  Create Invoice    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Big Merchant\Big merchant\bigmerchant\Create_Authorization_2d_Inline.robot:17
+      ${r} IN [ @{result} ]    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Big Merchant\Big merchant\bigmerchant\Create_Authorization_2d_Inline.robot:17
+      ${r} = {'name': 'Create Authorization 2D Inline', 'data': {'c1': {'request': {'url': 'https://mtf.onepay.vn/paygate/api/v1/vpc/merchants/', 'method': 'PUT', 'query_param': {'vpc_SHIP_City': 'Ha Noi', 'vpc_Or...    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Big Merchant\Big merchant\bigmerchant\Create_Authorization_2d_Inline.robot:32
+      Should Contain    ${response.text}    ${responsejson["body"]}
+      |  ${response.text} = vpc_SHIP_City=Ha+Noi&vpc_OrderInfo=Ma+Don+Hang&vpc_Merchant=TESTONEPAY&User-Agent=python-requests%2F2.28.1&vpc_Card=VC&CardNum=4000000000000002&merchant_id=TESTONEPAY&vpc_Customer_Id=test&AgainLink=https%3A%2F%2Fdev.onepay.vn%2Fclient%2Fqt%2Fdr%2F&mode=TEST_PAYGATE&vpc_ClientIP=192.168.166.148&vpc_SHIP_Street01=194+Tran+Quang+Khai&CardYear=24&vpc_SHIP_Province=Hoan+Kiem&vpc_Locale=en&vpc_TxnResponseCode=4&vpc_Amount=200000&vpc_Version=2&vpc_Currency=VND&vpc_Command=authorize&vpc_Customer_Email=test%40onepay.vn&CardMonth=05&vpc_Message=INTERNAL_SERVER_ERROR&Title=PHP%2BVPC%2B3-Party&vpc_ReturnURL=https%3A%2F%2Fdev.onepay.vn%2Fclient%2Fqt%2Fdr%2F&vpc_Customer_Phone=84987654321&vpc_SecureHash=88EDC7CBC8947C5B826FB7A75D010BB642FA4A525D2E753E01344F6F15034703&vpc_CardNum=4000000000000002&CardSecurityCode=123&Card=VC&vpc_AccessCode=6BEB2546&vpc_TicketNo=192.168.166.148&vpc_CardHolderName=NGUYEN+VAN+A&vpc_MerchTxnRef=REF_1665718788162&vpc_SHIP_Country=Viet+Nam&vpc_3DSType=2D&vpc_CardYear=24&vpc_CardSecurityCode=123&X-Forwarded-For=10.36.0.1%2C+10.36.76.2&vpc_Customer_Name=Test+User&merchTxnRef=REF_1665718788162&vpc_CardMonth=05 (str)
+      |  ${responsejson["body"]} = vpc_TxnResponseCode=0 (str)
+______________________________________________________________________________
+| FAIL |
+'vpc_SHIP_City=Ha+Noi&vpc_OrderInfo=Ma+Don+Hang&vpc_Merchant=TESTONEPAY&User-Agent=python-requests%2F2.28.1&vpc_Card=VC&CardNum=4000000000000002&merchant_id=TESTONEPAY&vpc_Customer_Id=test&AgainLink=https%3A%2F%2Fdev.onepay.vn%2Fclient%2Fqt%2Fdr%2F&mode=TEST_PAYGATE&vpc_ClientIP=192.168.166.148&vpc_SHIP_Street01=194+Tran+Quang+Khai&CardYear=24&vpc_SHIP_Province=Hoan+Kiem&vpc_Locale=en&vpc_TxnResponseCode=4&vpc_Amount=200000&vpc_Version=2&vpc_Currency=VND&vpc_Command=authorize&vpc_Customer_Email=test%40onepay.vn&CardMonth=05&vpc_Message=INTERNAL_SERVER_ERROR&Title=PHP%2BVPC%2B3-Party&vpc_ReturnURL=https%3A%2F%2Fdev.onepay.vn%2Fclient%2Fqt%2Fdr%2F&vpc_Customer_Phone=84987654321&vpc_SecureHash=88EDC7CBC8947C5B826FB7A75D010BB642FA4A525D2E753E01344F6F15034703&vpc_CardNum=4000000000000002&CardSecurityCode=123&Card=VC&vpc_AccessCode=6BEB2546&vpc_TicketNo=192.168.166.148&vpc_CardHolderName=NGUYEN+VAN+A&vpc_MerchTxnRef=REF_1665718788162&vpc_SHIP_Country=Viet+Nam&vpc_3DSType=2D&vpc_CardYear=24&vpc_CardSecurityCode=123&X-Forwarded-For=10.36.0.1%2C+10.36.76.2&vpc_Customer_Name=Test+User&merchTxnRef=REF_1665718788162&vpc_CardMonth=05' does not contain 'vpc_TxnResponseCode=0'
+------------------------------------------------------------------------------
+Bigmerchant.Create Authorization 2d Inline                            | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Bigmerchant                                                           | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  D:\Big Merchant\Big merchant\pabot_results\5\output.xml

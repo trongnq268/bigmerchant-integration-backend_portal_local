@@ -1,0 +1,136 @@
+[
+    {
+        "input": {
+            "params": {
+                "fromDate": "14/06/2023 00:00",
+                "toDate": "14/06/2023 23:59",
+                "pic": "",
+                "requestType": "",
+                "action": "",
+                "page": "0",
+                "pageSize": "100"
+            },
+            "X-USER-ID": ""
+        },
+        "output": {
+            "status": 401,
+            "body": {
+                "code": 401,
+                "message": "this user isn't authorized to operation",
+                "details": null
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "",
+                "toDate": "14/06/2023 23:59",
+                "pic": "",
+                "requestType": "",
+                "action": "",
+                "page": "0",
+                "pageSize": "100"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "FromDate is required",
+                "details": [
+                    {
+                        "param": "FromDate",
+                        "value": "",
+                        "message": "FromDate is required"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "14/06/2023 00:00",
+                "toDate": "",
+                "pic": "",
+                "requestType": "",
+                "action": "",
+                "page": "0",
+                "pageSize": "100"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "ToDate is required",
+                "details": [
+                    {
+                        "param": "ToDate",
+                        "value": "",
+                        "message": "ToDate is required"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "14/06/2023 00:00",
+                "toDate": "14/06/2023 23:59",
+                "pic": "",
+                "requestType": "",
+                "action": "",
+                "page": "-1",
+                "pageSize": "100"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "Page minimum value is 0",
+                "details": [
+                    {
+                        "param": "Page",
+                        "value": -1,
+                        "message": "Page minimum value is 0"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "input": {
+            "params": {
+                "fromDate": "14/06/2023 00:00",
+                "toDate": "14/06/2023 23:59",
+                "pic": "",
+                "requestType": "",
+                "action": "",
+                "page": "0",
+                "pageSize": "0"
+            },
+            "X-USER-ID": "THANG"
+        },
+        "output": {
+            "status": 400,
+            "body": {
+                "code": 400,
+                "message": "PageSize minimum value is 1",
+                "details": [
+                    {
+                        "param": "PageSize",
+                        "value": 0,
+                        "message": "PageSize minimum value is 1"
+                    }
+                ]
+            }
+        }
+    }
+]
