@@ -4,7 +4,7 @@ Library    json
 Library    String
 Library    ../../util.py
 Library    Collections
-# Library    ../../../../config/FDMRuleHandler.py
+Library    ../../../../config/FDMRuleHandler.py
 
 *** Variables ***
 ${BASE_API_URL}     https://dev.onepay.vn/iportal/api/v2/fdm/domestic/transactionSearch
