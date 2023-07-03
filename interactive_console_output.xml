@@ -1,13 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230628 22:19:41.422" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230703 23:45:14.766" rpa="false" schemaversion="4">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\Admin\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<status status="PASS" starttime="20230628 22:19:41.460" endtime="20230628 22:19:50.133"/>
+<kw name="util.Make Param Json">
+<var>@{array}</var>
+<arg>c:\\Users\\Admin\\Desktop\\bigmerchant-integration-backend_portal_local\\MA_APP\\MA_API${TC_SEARCH_TRANS_TYPE}</arg>
+<msg timestamp="20230703 23:45:15.703" level="FAIL">No keyword with name 'util.Make Param Json' found.</msg>
+<status status="FAIL" starttime="20230703 23:45:15.703" endtime="20230703 23:45:15.703"/>
 </kw>
-<status status="PASS" starttime="20230628 22:19:41.459" endtime="20230628 22:19:50.133"/>
+<for flavor="IN">
+<var>${testcase}</var>
+<value>@{array}</value>
+<iter>
+<var name="${testcase}"/>
+<kw name="Get From Dictionary">
+<var>${input}</var>
+<arg>${testcase}</arg>
+<arg>input</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.708" endtime="20230703 23:45:15.708"/>
+</kw>
+<kw name="Get From Dictionary">
+<var>${COOKIE}</var>
+<arg>${input}</arg>
+<arg>COOKIE</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.711" endtime="20230703 23:45:15.711"/>
+</kw>
+<kw name="Get From Dictionary">
+<var>${inputParams}</var>
+<arg>${input}</arg>
+<arg>params</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.715" endtime="20230703 23:45:15.715"/>
+</kw>
+<kw name="get from dictionary">
+<var>${output}</var>
+<arg>${testCase}</arg>
+<arg>output</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.718" endtime="20230703 23:45:15.718"/>
+</kw>
+<kw name="Get From Dictionary">
+<var>${status}</var>
+<arg>${output}</arg>
+<arg>status</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.722" endtime="20230703 23:45:15.722"/>
+</kw>
+<kw name="Convert To String" library="BuiltIn">
+<var>${statusString}</var>
+<arg>${status}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="NOT RUN" starttime="20230703 23:45:15.722" endtime="20230703 23:45:15.722"/>
+</kw>
+<kw name="Get From Dictionary">
+<var>${expectedBody}</var>
+<arg>${output}</arg>
+<arg>body</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.725" endtime="20230703 23:45:15.725"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>&amp;{header}</var>
+<arg>Content-Type=application/json</arg>
+<arg>COOKIE=${COOKIE}</arg>
+<arg>User-Agent=Robot-Auto-Test</arg>
+<arg>Connection=keep-alive</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="NOT RUN" starttime="20230703 23:45:15.725" endtime="20230703 23:45:15.726"/>
+</kw>
+<kw name="GET">
+<var>${response}</var>
+<arg>${API_SEARCH_URL}</arg>
+<arg>params=${inputParams}</arg>
+<arg>headers=${header}</arg>
+<arg>expected_status=${statusString}</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.726" endtime="20230703 23:45:15.727"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;&quot;&quot;${response.text}&quot;&quot;&quot; != &quot;&quot; or &quot;&quot;&quot;${output}&quot;&quot;&quot; != &quot;&quot;">
+<kw name="json.loads">
+<var>${actualBody}</var>
+<arg>${response.text}</arg>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>@{actualTransaction}</var>
+<arg>${actualBody['transactions']}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</kw>
+<for flavor="IN">
+<var>${item1}</var>
+<value>@{actualTransaction}</value>
+<iter>
+<var name="${item1}"/>
+<kw name="Set Variable" library="BuiltIn">
+<var>@{actualItems}</var>
+<arg>${item1['items']}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message ${actualItems}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</kw>
+<for flavor="IN">
+<var>${item2}</var>
+<value>@{actualItems}</value>
+<iter>
+<var name="${item2}"/>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${item2['transactionType']}</arg>
+<arg>${inputParams['transactionType']}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</kw>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</iter>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</for>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</iter>
+<status status="NOT RUN" starttime="20230703 23:45:15.729" endtime="20230703 23:45:15.729"/>
+</for>
+<status status="NOT RUN" starttime="20230703 23:45:15.727" endtime="20230703 23:45:15.730"/>
+</branch>
+<status status="NOT RUN" starttime="20230703 23:45:15.727" endtime="20230703 23:45:15.731"/>
+</if>
+<status status="NOT RUN" starttime="20230703 23:45:15.704" endtime="20230703 23:45:15.731"/>
+</iter>
+<status status="NOT RUN" starttime="20230703 23:45:15.704" endtime="20230703 23:45:15.731"/>
+</for>
+<status status="PASS" starttime="20230703 23:45:14.798" endtime="20230703 23:45:16.854"/>
+</kw>
+<status status="PASS" starttime="20230703 23:45:14.797" endtime="20230703 23:45:16.854"/>
 </test>
-<status status="PASS" starttime="20230628 22:19:41.424" endtime="20230628 22:19:50.134"/>
+<status status="PASS" starttime="20230703 23:45:14.769" endtime="20230703 23:45:16.855"/>
 </suite>
 <statistics>
 <total>

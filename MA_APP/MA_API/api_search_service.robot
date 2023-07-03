@@ -8,23 +8,23 @@ Library     Collections
 
 *** Variables ***
 ${API_SEARCH_URL}    https://dev.onepay.vn/ma/api/v1/ma-app/transaction
-${TC01_SEARCH}    /json/TC_02_SEARCH.json
+${TC_SEARCH_SERVICE}    /json/TC_SEARCH_SERVICE.json
+
 *** Test Cases ***
-SEARCH
-    [Documentation]    URL SEARCH TRANSACTION HOME  
-    @{array}    util.Make Param Json    ${CURDIR}${TC01_SEARCH}
-    FOR    ${testCase}    IN    @{array}
-        
-        ${input}=    Get From Dictionary    ${testCase}    input 
+SEARCH TRANSACTION TYPE 
+    [Documentation]    SEARCH TRANSACTION TYPE 
+    @{array}    util.Make Param Json     ${CURDIR}${TC_SEARCH_SERVICE}
+    FOR    ${testcase}    IN    @{array}
+        ${input}=    Get From Dictionary    ${testcase}    input 
         ${COOKIE}=    Get From Dictionary    ${input}    COOKIE
+
         ${inputParams}=     Get From Dictionary    ${input}     params
-       
+        
         ${output}=  get from dictionary    ${testCase}  output
         ${status}=    Get From Dictionary    ${output}    status
         ${statusString}=    Convert To String    ${status}
         ${expectedBody}=    Get From Dictionary    ${output}    body
-        @{expectTransactions}=    Get From Dictionary    ${expectedBody}    transactions
-
+        
         &{header}=    Create Dictionary
         ...    Content-Type=application/json
         ...    COOKIE=${COOKIE}
@@ -36,19 +36,19 @@ SEARCH
         ...    ${API_SEARCH_URL}
         ...    params=${inputParams}
         ...    headers=${header}
-        ...    expected_status=${statusString}
+        ...    expected_status=${statusString}    
         #==================***CHECK RESULT***==================#
         IF     """${response.text}""" != "" or """${output}""" != ""
             ${actualBody}=    json.loads    ${response.text}
-
+            
             @{actualTransaction}=    Set Variable    ${actualBody['transactions']}
             
             FOR    ${item1}    IN    @{actualTransaction}               
-                ${actualDate}    Set Variable   ${item1['date']}    
-                FOR    ${element}    IN    @{expectTransactions}
-                    Log To Console    ${element['date']}
-                    Should Be Equal    ${actualDate}    ${element['date']}
+                @{actualItems}    Set Variable   ${item1['items']}
+                Log To Console    message ${actualItems}
+                FOR    ${item2}    IN    @{actualItems}
+                    Should Be Equal    ${item2['service']}    ${inputParams['service']}
                 END
             END
-        END
-    END 
+        END  
+    END
