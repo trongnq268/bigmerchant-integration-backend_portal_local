@@ -2,18 +2,18 @@
 Library    RequestsLibrary
 Library    json
 Library    String
-Library    ../util.py
+Library    ../../util.py
 # Library     ../../config/Iportal_refund_dispute_Handle.py
 Library     Collections
 
 *** Variables ***
 ${API_SEARCH_URL}    https://dev.onepay.vn/ma/api/v1/ma-app/transaction
-${TC_SEARCH_TRANS_TYPE}    /json/TC_SEARCH_TRANS_TYPE.json
+${TC_SEARCH_SERVICE}    /json/TC_SEARCH_SERVICE.json
 
 *** Test Cases ***
-SEARCH TRANSACTION TYPE 
+SEARCH TRANSACTION SERVICE 
     [Documentation]    SEARCH TRANSACTION TYPE 
-    @{array}    util.Make Param Json     ${CURDIR}${TC_SEARCH_TRANS_TYPE}
+    @{array}    util.Make Param Json     ${CURDIR}${TC_SEARCH_SERVICE}
     FOR    ${testcase}    IN    @{array}
         ${input}=    Get From Dictionary    ${testcase}    input 
         ${COOKIE}=    Get From Dictionary    ${input}    COOKIE
@@ -45,9 +45,9 @@ SEARCH TRANSACTION TYPE
             
             FOR    ${item1}    IN    @{actualTransaction}               
                 @{actualItems}    Set Variable   ${item1['items']}
-                Log To Console    message ${actualItems}
+               
                 FOR    ${item2}    IN    @{actualItems}
-                    Should Be Equal    ${item2['transactionType']}    ${inputParams['transactionType']}
+                    Should Be Equal    ${item2['service']}    ${inputParams['service']}
                 END
             END
         END  

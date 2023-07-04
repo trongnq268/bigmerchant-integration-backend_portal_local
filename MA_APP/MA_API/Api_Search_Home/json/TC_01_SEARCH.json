@@ -1,0 +1,42 @@
+[
+    {
+        "input": {
+            "params": {
+                "fromDate": "01/06/2023 00:00",
+                "toDate": "03/07/2023 23:59",
+                "page": 0
+            },
+            "COOKIE": "auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiUXXhuqNuIHRy4buLIHZpw6puIGjhu4cgdGjhu5FuZyIsImVtYWlsIjoiYWRtaW5Ab25lcGF5LnZuIiwicGhvbmUiOiI4NDkzNDYyMTExMSIsImFkZHJlc3MiOiJ0cmFuIHF1YW5nIGtoYWkgIiwiaWF0IjoxNjg4NDYyMzQzLCJleHAiOjE2ODg0Njk1NDMsInN1YiI6IjUxREQ3QzlDN0RBNkEyNzg4RjRBQjUzQjU2QkU2ODExIn0.cvH7MMxa4waMgdflOH947SAr1lS18eJBafomtOhPupE; Max-Age=7200; Expires=Tue, 4 Jul 2023 11:19:03 GMT; Path=/ma; HTTPOnly"
+        },
+        "output": {
+            "status": 200,
+            "body": {
+                "totalItems": "6045",
+                "transactions": [
+                    {
+                        "date": "03/07/2023",
+                        "items":[
+                            {
+                                "id": "3322811",
+                                "orderInfo": "Ma Don Hang",
+                                "cardNumber": "****0001",
+                                "cardType": "ABBank",
+                                "icon": "https://dev.onepay.vn/ufiles/ABBank.svg",
+                                "amount": 10000.0,
+                                "currency": "VND",
+                                "transactionType": "Purchase",
+                                "transactionAdvanceStatus": "Failed",
+                                "transactionStatusColor": {
+                                    "background": "#FFEFF0",
+                                    "text": "#FA3242"
+                                },
+                                "service": "domestic",
+                                "transactionDate": "03/07/2023"
+                            }
+                        ]
+                    }
+                ]
+            }
+		}
+    }
+]
